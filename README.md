@@ -10,3 +10,11 @@ The code performs the following steps:
 - **Feature Extraction:** Transforms the cleaned reviews into a numerical Bag-of-Words representation (limited to the top 1500 words).
 - **Model Training:** Splits the data into training and test sets and trains a Gaussian Naive Bayes classifier.
 - **Evaluation:** Predicts the sentiment of test reviews and evaluates the classifier using a confusion matrix and accuracy score.
+
+### Install Dependencies
+pip install -r requirements.txt
+
+### Usage
+- Ensure that the `Restaurant_Reviews.tsv` file is in the same directory.
+- Run the script:
+  python restaurant_review_nlp.py
