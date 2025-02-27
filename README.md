@@ -18,4 +18,4 @@ pip install -r requirements.txt
 - Ensure that the `Restaurant_Reviews.tsv` file is in the same directory.
 - Run the script:
  ```bash
-python restaurant_review_nlp.py
+python main.py
